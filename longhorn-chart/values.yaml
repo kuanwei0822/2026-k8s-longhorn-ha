@@ -1,0 +1,6 @@
+longhorn:
+  defaultSettings:
+    defaultDataPath: "/var/lib/longhorn"
+    defaultReplicaCount: 3
+  persistence:
+    reclaimPolicy: Retain
